@@ -16,7 +16,7 @@ export const ROUTES = [
   {
     id: "R-10",
     name: "Piassa - Bole",
-    color: "#c1121f", // Anbessa Red
+    color: "#eab308", // Yellow 500
     stops: [1, 2, 3, 4, 5],
     path: [
       [9.0315, 38.7523],
@@ -33,7 +33,7 @@ export const ROUTES = [
   {
     id: "R-22",
     name: "Megenagna - Ayat",
-    color: "#fdbb2d", // Anbessa Yellow
+    color: "#facc15", // Yellow 400
     stops: [6, 7, 8, 9],
     path: [
       [9.0205, 38.8021],

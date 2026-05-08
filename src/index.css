@@ -2,20 +2,21 @@
 @import "leaflet/dist/leaflet.css";
 
 @theme {
-  --color-anbessa-yellow: #fdbb2d;
-  --color-anbessa-yellow-dark: #e8a723;
-  --color-anbessa-red: #c1121f;
-  --color-anbessa-red-dark: #a20f1a;
-  --color-charcoal: #2b2d42;
-  --color-bus-green: #38b000;
-  --color-bus-blue: #0077b6;
+  --color-guzo-yellow-50: #fefce8;
+  --color-guzo-yellow-100: #fef9c3;
+  --color-guzo-yellow-400: #facc15;
+  --color-guzo-yellow-500: #eab308;
+  --color-guzo-yellow-600: #ca8a04;
+  --color-guzo-yellow-800: #854d0e;
+  --color-guzo-yellow-950: #422006;
+  
   --font-sans: "Inter", "Roboto", sans-serif;
 }
 
 body {
   font-family: var(--font-sans);
-  background-color: #f8f9fa;
-  color: var(--color-charcoal);
+  background-color: var(--color-guzo-yellow-50);
+  color: var(--color-guzo-yellow-950);
   margin: 0;
   padding: 0;
 }
