@@ -21,7 +21,7 @@ const TripPlanner = () => {
   };
 
   return (
-    <div className="p-4 sm:p-8 max-w-3xl mx-auto">
+    <div className="p-4 sm:p-8 max-w-3xl mx-auto bg-white min-h-full">
       <h2 className="text-2xl font-bold mb-6 text-[var(--color-guzo-yellow-950)]">Plan Your Trip</h2>
       
       <div className="bg-white rounded-2xl p-6 shadow-md border border-[var(--color-guzo-yellow-100)] mb-8 relative">

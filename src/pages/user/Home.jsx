@@ -1,12 +1,12 @@
 import { Link } from 'react-router-dom';
-import { Search, MapPin, Clock, Navigation } from 'lucide-react';
+import { MapPin, Clock, Navigation } from 'lucide-react';
 import { ROUTES, INITIAL_BUSES, BUS_STOPS } from '../../services/mockData';
 
 const Home = () => {
   const activeBuses = INITIAL_BUSES.filter(b => b.status === 'active').length;
   
   return (
-    <div className="p-4 space-y-6 sm:p-8">
+    <div className="p-4 space-y-6 sm:p-8 bg-white min-h-full">
       {/* Hero / Search Section */}
       <section className="bg-white rounded-2xl p-6 shadow-md border border-[var(--color-guzo-yellow-100)]">
         <h2 className="text-2xl font-bold mb-4 text-[var(--color-guzo-yellow-950)]">Where are you going?</h2>
@@ -31,7 +31,7 @@ const Home = () => {
               className="w-full pl-10 pr-4 py-3 rounded-xl border border-gray-200 focus:outline-none focus:ring-2 focus:ring-[var(--color-guzo-yellow-500)] focus:border-transparent transition-all bg-gray-50 text-[var(--color-guzo-yellow-950)]"
             />
           </div>
-          <Link to="/plan" className="block w-full text-center bg-[var(--color-guzo-yellow-500)] hover:bg-[var(--color-guzo-yellow-600)] text-[var(--color-guzo-yellow-950)] font-bold py-3 rounded-xl transition-colors shadow-sm">
+          <Link to="/plan" className="block w-full text-center bg-[var(--color-guzo-yellow-500)] hover:bg-[var(--color-guzo-yellow-600)] text-white font-bold py-3 rounded-xl transition-colors shadow-sm">
             Find Route
           </Link>
         </div>

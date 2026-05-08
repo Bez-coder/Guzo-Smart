@@ -12,8 +12,8 @@ const RouteSearch = () => {
   );
 
   return (
-    <div className="p-4 sm:p-8 max-w-3xl mx-auto space-y-6">
-      <div className="bg-[var(--color-guzo-yellow-50)] sticky top-0 z-10 pt-4 pb-2 border-b border-[var(--color-guzo-yellow-100)] mb-6">
+    <div className="p-4 sm:p-8 max-w-3xl mx-auto space-y-6 bg-white min-h-full">
+      <div className="bg-white sticky top-0 z-10 pt-4 pb-2 border-b border-[var(--color-guzo-yellow-100)] mb-6">
         <h2 className="text-2xl font-bold mb-4 text-[var(--color-guzo-yellow-950)]">Find a Route</h2>
         <div className="relative">
           <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">

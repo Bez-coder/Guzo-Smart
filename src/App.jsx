@@ -6,6 +6,9 @@ import RouteSearch from './pages/user/RouteSearch';
 import LiveMap from './pages/user/LiveMap';
 import TripPlanner from './pages/user/TripPlanner';
 import AdminDashboard from './pages/admin/Dashboard';
+import AdminBuses from './pages/admin/Buses';
+import AdminRoutes from './pages/admin/Routes';
+import AdminSchedules from './pages/admin/Schedules';
 import Login from './pages/auth/Login';
 import SignUp from './pages/auth/SignUp';
 
@@ -22,11 +25,14 @@ function App() {
           <Route path="map" element={<LiveMap />} />
           <Route path="plan" element={<TripPlanner />} />
         </Route>
-        
+
         <Route path="/admin" element={<AdminLayout />}>
           <Route index element={<AdminDashboard />} />
+          <Route path="buses" element={<AdminBuses />} />
+          <Route path="routes" element={<AdminRoutes />} />
+          <Route path="schedules" element={<AdminSchedules />} />
         </Route>
-        
+
         <Route path="*" element={<Navigate to="/" replace />} />
       </Routes>
     </BrowserRouter>
