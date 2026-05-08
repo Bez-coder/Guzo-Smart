@@ -1,0 +1,28 @@
+@import "tailwindcss";
+@import "leaflet/dist/leaflet.css";
+
+@theme {
+  --color-anbessa-yellow: #fdbb2d;
+  --color-anbessa-yellow-dark: #e8a723;
+  --color-anbessa-red: #c1121f;
+  --color-anbessa-red-dark: #a20f1a;
+  --color-charcoal: #2b2d42;
+  --color-bus-green: #38b000;
+  --color-bus-blue: #0077b6;
+  --font-sans: "Inter", "Roboto", sans-serif;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: #f8f9fa;
+  color: var(--color-charcoal);
+  margin: 0;
+  padding: 0;
+}
+
+/* Map specific styling */
+.leaflet-container {
+  height: 100%;
+  width: 100%;
+  z-index: 0;
+}
